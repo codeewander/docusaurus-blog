@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Kira Yang Blog</title>
+        <link>https://codeewander.github.io/blog</link>
+        <description>The best place to stay up-to-date with the latest Kira Yang news and events.</description>
+        <lastBuildDate>Sat, 29 Dec 2018 06:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Kira Yang Blog</title>
+            <url>https://codeewander.github.io/img/logo-lightMode.svg</url>
+            <link>https://codeewander.github.io/blog</link>
+        </image>
+        <copyright>Copyright © 2021 Kira Yang All rights reserved</copyright>
+        <item>
+            <title><![CDATA[如何在 local 環境用手機快速測試和 debug]]></title>
+            <link>https://codeewander.github.io/blog/2018/12/29/mobile-testing.html</link>
+            <guid>https://codeewander.github.io/blog/2018/12/29/mobile-testing.html</guid>
+            <pubDate>Sat, 29 Dec 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<h2><a class="anchor" aria-hidden="true" id="手機連上-local-環境"></a><a href="#手機連上-local-環境" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>手機連上 local 環境</h2> <ol> <li>確認手機裝置和電腦在同一個網域底下</li> <li>找到自己的 IP 位置</li> </ol> <p>第一種方法：打開 Terminal 輸入指令</p> <pre><code class="hljs css language-bash">ifconfig //macOS ipconfig //windows </code></pre> <p><img src="https://i.imgur.com/W1MOn15.jpg" alt></p> <p>第二種方法：點擊 Wi-Fi 圖示，打開網路偏好設定</p> <p><img src="https://i.imgur.com/htEojDZ.jpg" alt></p> <h2><a class="anchor" aria-hidden="true" id="使用指定的-ip-位置開-local-環境"></a><a href="#使用指定的-ip-位置開-local-環境" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>使用指定的 IP 位置開 local 環境</h2> <p>輸入以下指令和預設 port 號（需安裝 python）</p> <pre><code class="hljs css language-bash">python -m SimpleHTTPServer [port] </code></pre> <p>若為 React 專案，直接輸入 yarn run sta...</p>]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JAVASCRIPT 十個單字]]></title>
+            <link>https://codeewander.github.io/blog/2018/12/28/js-10vocabularies.html</link>
+            <guid>https://codeewander.github.io/blog/2018/12/28/js-10vocabularies.html</guid>
+            <pubDate>Fri, 28 Dec 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<h2><a class="anchor" aria-hidden="true" id="array-陣列"></a><a href="#array-陣列" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Array 陣列</h2> <ul> <li>複數：多個</li> <li>有順序性，可以放任何類型的資料，但建議最好放資料類型相似的一組資料</li> <li>適合資料處理</li> <li>JS 是弱型別，可放不同型別，但強型別語言只放相同型別</li> </ul> <blockquote> <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> @MDN</p> </blockquote> <h2><a class="anchor" aria-hidden="true" id="object-物件"></a><a href="#object-物件" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Object 物件</h2> <ul> <li>單數(一個)</li> <li>描述單體的屬性/方法集合（可能相關，可能不相關）</li> <li>key-value pair，key 為命名，value 為屬性/方法</li> <li>化抽象為具體</li> <li>與類別 Class 的差異：</li> </ul> <p>舉例：狗是 class，一隻狗是 object 創造一個水壺，會將水壺屬性資料抽項出來成 clas...</p>]]></description>
+        </item>
+    </channel>
+</rss>
