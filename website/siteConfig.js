@@ -21,26 +21,27 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
+  title: `Kira Yang`, // Title for your website.
+  tagline: 'Here is how I grow my hippocampus',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
+  // url: 'https://codeewander.github.io', // Your website URL
+  // baseUrl: '/docusaurus-blog/', // Base URL for your project */
+  projectName: 'docusaurus-blog',
+  organizationName: 'codeewander',
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
-  // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
+    // {doc: 'doc1', label: 'Docs'},
+    // {doc: 'doc4', label: 'API'},
+    // {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
   ],
 
@@ -54,7 +55,7 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#936644',
+    primaryColor: '#1fa0ae',
     secondaryColor: '#66472f',
   },
 
@@ -73,15 +74,19 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Kira Yang All rights reserved`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'atom-one-dark',
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: ['https://buttons.github.io/buttons.js','https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
+  '/js/code-block-buttons.js',],
+
+  stylesheets: ['/css/code-block-buttons.css'],
+
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',

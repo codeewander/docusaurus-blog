@@ -1,0 +1,46 @@
+/* "Copy" code block button */
+pre {
+  position: relative;
+}
+
+pre .btnIcon {
+  position: absolute;
+  top: 4px;
+  z-index: 2;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 0 8px;
+  color: #fff;
+  background-color: transparent;
+  height: 25px;
+  transition: all 0.25s ease-out;
+  border-radius: 4px;
+  outline: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+pre .btnIcon:hover {
+  text-decoration: none;
+  background-color: #009688;
+}
+
+.btnIcon__body {
+  align-items: center;
+  display: flex;
+}
+
+.btnIcon svg {
+  fill: currentColor;
+  margin-right: 0.4em;
+}
+
+.btnIcon__label {
+  font-size: 11px;
+}
+
+.btnClipboard {
+  right: 10px;
+}
